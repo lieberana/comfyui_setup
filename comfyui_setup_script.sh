@@ -19,7 +19,7 @@ echo "
 ----------------------------------------"
 mkdir -p /workspace/ComfyUI
 mkdir -p /workspace/miniconda3
-mkdir -p /workspace/ComfyUI/models/diffusion_models  # Directory for diffusion models
+mkdir -p /workspace/ComfyUI/models/checkpoints  # Directory for diffusion models
 
 # Step 2: Install Miniconda if not already installed
 echo "
@@ -86,7 +86,7 @@ echo "
 📥 Downloading diffusion model...
 ----------------------------------------"
 MODEL_URL="<MODEL_DOWNLOAD_URL>"  # Replace with the actual model URL
-MODEL_DIR="/workspace/ComfyUI/models/diffusion_models"
+MODEL_DIR="/workspace/ComfyUI/models/checkpoints"
 if [ ! -f "$MODEL_DIR/<MODEL_FILENAME>" ]; then  # Replace <MODEL_FILENAME> with the actual file name
     cd $MODEL_DIR
     wget $MODEL_URL
