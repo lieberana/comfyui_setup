@@ -7,7 +7,7 @@
 #    /workspace/miniconda3/bin/conda init bash
 # 2. Activate the environment:
 #    conda activate comfyui
-# 3. Launch ComfyUI:
+# 3. Launch ComfyUI (run in ComfyUI directory):
 #    python main.py --listen
 
 echo "

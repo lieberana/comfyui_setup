@@ -27,7 +27,7 @@ bash comfyui_setup_script.sh
 # Activate environment
 conda activate comfyui
 
-# Start ComfyUI
+# Start ComfyUI (run in ComfyUI directory)
 python main.py --listen
 ```
 
