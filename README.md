@@ -4,13 +4,7 @@ A streamlined setup script for ComfyUI on RunPod, tested with the `pytorch:2.4.0
 
 ## Quick Start
 
-1. Clone and make executable:
-
-```bash
-git clone <REPO_URL>
-cd <REPO_NAME>
-chmod +x setup.sh
-```
+1. Copy the script to your RunPod root directory
 
 2. Optional: To download official FLUX models:
 
@@ -21,10 +15,10 @@ chmod +x setup.sh
 3. Run setup:
 
 ```bash
-./setup.sh
+bash comfyui_setup_script.sh
 ```
 
-## Post-Setup (Required for each new RunPod instance)
+## Post-Setup (Also required for each new RunPod instance)
 
 ```bash
 # Initialize conda
